@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
 * {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     color: white;
     resize: none;
