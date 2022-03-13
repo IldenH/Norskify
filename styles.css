@@ -1,0 +1,33 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: white;
+    resize: none;
+}
+
+.background {
+    background-color: black;
+}
+
+.header {
+    font-size: 7em;
+}
+
+.textbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 75px;
+    background-color: rgb(12, 12, 12);
+    width: 1500px;
+    height: 150px;
+    padding: 20px 0;
+}
+
+.button {
+    font-size: 3em;
+    background-color: rgb(39, 39, 39);
+    margin-top: 1em;
+}
