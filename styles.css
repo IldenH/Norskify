@@ -17,25 +17,25 @@
 }
 
 .header {
-    font-size: 7em; 
+    font-size: 17vmin; 
     user-select: none;
-    margin-top: 0.5em;
+    margin-top: 0.5vh;
 }
 
 .textbox {
     display: block;
     margin: auto;
-    margin-top: 0.75em;
-    font-size: 75px;
+    margin-top: 0.75vh;
+    font-size: 10vmin;
     background-color: rgb(12, 12, 12);
-    width: 1500px;
-    height: 150px;
-    padding: 20px 0;
+    width: 90vw;
+    height: 21vh;
+    padding: 3.5vh;
 }
 
 .button {
-    font-size: 3em;
+    font-size: 8vmin;
     background-color: rgb(39, 39, 39);
-    margin-top: 1em;
+    margin-top: 1vh;
     user-select: none;
 }
