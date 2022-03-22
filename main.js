@@ -1,30 +1,24 @@
 const changeStuff = {
     a: "å",
-    b: "b",
+    A: "Å",
     c: "k",
-    d: "d",
+    C: "K",
     e: "æ",
-    f: "f",
-    g: "g",
-    h: "h",
-    i: "i",
-    j: "j",
-    k: "k",
-    l: "l",
-    m: "m",
-    n: "n",
+    E: "Æ",
     o: "ø",
-    p: "p",
+    O: "Ø",
     q: "p",
-    r: "r",
-    s: "s",
-    t: "t",
+    Q: "P",
+    uu: "uu",
     u: "uu",
-    v: "v",
+    UU: "UU",
+    U: "UU",
     w: "v",
+    W: "V",
     x: "ks",
+    X: "KS",
     y: "i",
-    z: "z"
+    Y: "I",
 }
 
 document.getElementById("button").addEventListener("click", Norskify);
@@ -44,6 +38,6 @@ function replaceAll(text, changeStuff){
     var re = new RegExp(Object.keys(changeStuff).join("|"),"gi");
 
     return text.replace(re, function(matched){
-        return changeStuff[matched.toLowerCase()];
+        return changeStuff[matched];
     });
 }
